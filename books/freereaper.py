@@ -27,8 +27,9 @@ class tech(BaseFeedBook):
     #deliver_days          = ['Friday']
     deliver_times = [6]
     feeds = [
-        ('FullStack', 'https://www.phodal.com/blog/feeds/rss/'),
-        ('36kr', 'http://www.36kr.com/feed?1.0'),
+        ('FullStack', 'http://www.phodal.com/blog/feeds/rss/'),
+        (u'伯乐在线', 'http://blog.jobble.com/feed/', True),
+        ('36kr', 'http://www.36kr.com/feed', True),
         (u'TechCrunch 中国', 'http://techcrunch.cn/feed/'),
         (u'爱范儿', 'http://www.ifanr.com/feed'),
         ('Top News - MIT Technology Review', 'http://www.technologyreview.com/topnews.rss'),
