@@ -28,7 +28,7 @@ class tech(BaseFeedBook):
     deliver_times = [6]
     feeds = [
         ('FullStack', 'http://www.phodal.com/blog/feeds/rss/'),
-        (u'伯乐在线', 'http://blog.jobble.com/feed/', True),
+        (u'伯乐在线', 'http://blog.jobbole.com/feed/', True),
         ('36kr', 'http://www.36kr.com/feed', True),
         (u'TechCrunch 中国', 'http://techcrunch.cn/feed/'),
         (u'爱范儿', 'http://www.ifanr.com/feed'),
